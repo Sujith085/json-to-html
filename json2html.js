@@ -13,6 +13,7 @@ export default function json2html(data) {
         html += `<th>${column}</th>`;
     });
     html += `</tr>\n</thead>\n<tbody>\n`;
+    //j
 
     // Generate table rows
     data.forEach(row => {
